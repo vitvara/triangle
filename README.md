@@ -21,7 +21,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 4. Is there any part of the code under test (`trinagle.py`) that was not tested?
 
-   Write the Line Numbers here: [          ]
+   Write the Line Numbers here: [    21-22      ]
 
 5. Modify the tests so that all lines of the code are tested.
 
