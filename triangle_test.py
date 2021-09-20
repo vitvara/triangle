@@ -34,3 +34,6 @@ class TriangleTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             b1 = is_triangle( -1, -1, -1)
             b2 = is_triangle( 0, 0, 0)
+
+        self.assertFalse(is_triangle( 1, 2, 4))
+        
